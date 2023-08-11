@@ -396,3 +396,18 @@
       amount: 1
   products:
     Saline: 5
+
+- type: reaction
+  id: Barozine
+  reactants:
+    Ethanol:
+      amount: 1
+    Iodine:
+      amount: 1
+    Mercury:
+      amount: 1
+    Plasma:
+      amount: 1
+      catalyst: true
+  products:
+    Barozine: 3
